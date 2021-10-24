@@ -1,0 +1,24 @@
+table{
+    width: 300px;
+}
+
+td{
+    height: 100px;
+    width: 100px;
+    border: 1px dashed #AAAAAA;
+    background-color: #F5F5F5;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 50px;
+}
+
+.d-grid{
+    grid-template-columns: 1fr 1fr;
+    max-width: 150px;
+    background-color: #93C6FF;
+}
+.d-grid div{
+    text-align: center;
+    margin: 0.1em;
+    border: 1px dashed #5C7899;
+}
